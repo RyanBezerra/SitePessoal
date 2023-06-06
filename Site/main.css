@@ -1,0 +1,34 @@
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-family: sans-serif;
+background-color: #f2f2f2;
+padding: 20px;
+}
+
+@font-face {
+    font-family: "SpaceX";
+    src: url(SpaceX.ttf) format("truetype");
+  }
+  
+  
+/* Estilos para a logo */
+.logo {
+    font-family: "SpaceX", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+
+/* Estilos para as opções */
+.options {
+display: flex;
+gap: 20px;
+}
+
+.option {
+font-size: 18px;
+font-weight: bold;
+color: #333;
+}
